@@ -206,7 +206,7 @@
   </header>
   <!-- HEADER SECTION END -->
   <!-- HERO SECTION START -->
-  <section class="relative bg-[url('../images/textured-bg-blue.jpg')] bg-repeat pt-36 md:pt-44 pb-32 md:pb-52">
+  <section class="relative bg-[url('../images/textured-bg-blue.jpg')] bg-repeat pt-32 md:pt-40 pb-9 md:pb-20">
     <!-- HERO CONTAINER -->
     <div class="container mx-auto px-4 relative z-[1] text-center mb-10">
       <!-- BREADCRUMBS -->
@@ -227,325 +227,145 @@
         Magazine
       </h1>
     </div>
-    <!-- HERO FILTER CONTAINER -->
-    <div class="container mx-auto px-4 mt-16">
-      <form class="w-full grid grid-cols-12 bg-white max-w-screen-lg mx-auto rounded-lg overflow-hidden">
-        <!-- ALL ARTICLE -->
-        <div class="col-span-6 lg:col-span-4 border-b border-r relative">
-          <img src="images/image-grey.svg" alt=""
-            class="hidden sm:block h-6 absolute left-3 top-2/4 -translate-y-1/2 opacity-50 max-w-full">
-          <select name="activity" id="activity"
-            class="w-full border-none h-12 md:h-14 rounded-lg p-2.5 sm:pl-12 outline-none focus:outline-none appearance-none text-base sm:text-xl bg-[url('../images/download.svg')] bg-no-repeat bg-[position:right_0.5rem_center] bg-[length:1.5em_1.5em] text-[#766d66] font-['Jost',_sans-serif]">
-            <option>All article types</option>
-            <option>Review</option>
-            <option>Spotlight</option>
-            <option>Story</option>
-          </select>
-        </div>
-        <!-- ALL ACTIVITY -->
-        <div class="col-span-6 lg:col-span-4 border-b border-r relative">
-          <img src="images/skiing-grey.svg" alt=""
-            class="hidden sm:block h-6 absolute left-3 top-2/4 -translate-y-1/2 opacity-50 max-w-full">
-          <select name="activity" id="activity"
-            class="w-full border-none h-12 md:h-14 rounded-lg p-2.5 sm:pl-12 outline-none focus:outline-none appearance-none text-base sm:text-xl bg-[url('../images/download.svg')] bg-no-repeat bg-[position:right_0.5rem_center] bg-[length:1.5em_1.5em] text-[#766d66] font-['Jost',_sans-serif]">
-            <option>All activity types</option>
-            <option>Base Jumping</option>
-            <option>Backpacking</option>
-            <option>Biking</option>
-            <option>Camping</option>
-            <option>Conservation</option>
-            <option>Cycling</option>
-          </select>
-        </div>
-        <!-- ALL AUTHORS -->
-        <div class="col-span-6 lg:col-span-4 border-b border-r relative">
-          <img src="images/pen-grey.svg" alt=""
-            class="hidden sm:block h-6 absolute left-3 top-2/4 -translate-y-1/2 opacity-50 max-w-full">
-          <select name="authors" id="authors"
-            class="w-full border-none h-12 md:h-14 rounded-lg p-2.5 sm:pl-12 outline-none focus:outline-none appearance-none text-base sm:text-xl bg-[url('../images/download.svg')] bg-no-repeat bg-[position:right_0.5rem_center] bg-[length:1.5em_1.5em] text-[#766d66] font-['Jost',_sans-serif]">
-            <option>All Authors</option>
-            <option>Aaron Rolph</option>
-            <option>Adam Boggon</option>
-            <option>Aldo Kane</option>
-            <option>Aled Bath</option>
-            <option>Alex Metcalfe</option>
-            <option>Alice Bowers</option>
-            <option>Andreas B. Heide</option>
-            <option>Ángel Pérez Grimaldi</option>
-            <option>Angelo Concilio</option>
-            <option>Banff Mountain Film Festival</option>
-            <option>BASE editorial team</option>
-            <option>Belinda Kirk</option>
-            <option>Ben Horton</option>
-            <option>Benjamin Sutton</option>
-          </select>
-        </div>
-        <!-- KEYWORDS -->
-        <div class="col-span-6 lg:col-span-10 border-b border-r relative">
-          <img src="images/search-grey.svg" alt=""
-            class="hidden sm:block h-6 absolute left-3 top-2/4 -translate-y-1/2 opacity-50 max-w-full">
-          <input type="text" name="keyword" id="keyword" placeholder="Keyword"
-            class="text-[#766d66] font-['Jost',_sans-serif] h-12 md:h-14 rounded-lg p-2.5 sm:pl-12 outline-none focus:outline-none text-base sm:text-xl w-full">
-        </div>
-        <!-- FILTER BUTTON -->
-        <div class="col-span-12 lg:col-span-2 border-b border-r relative p-1">
-          <button type="submit"
-            class="w-full h-full px-3 py-2 md:py-3 whitespace-nowrap rounded-md ease-[cubic-bezier(.4,0,.2,1)] transition-all uppercase text-[15px] bg-[#f79400] text-white inline-flex items-center justify-center font-['Jost',_sans-serif] tracking-wider hover:bg-[#cb7900]">
-            Filter
-            <span class="ml-1">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
-                <path fill-rule="evenodd"
-                  d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
-                  clip-rule="evenodd"></path>
-              </svg>
-            </span>
-          </button>
-        </div>
-      </form>
-    </div>
   </section>
   <!-- HERO SECTION END -->
-  <!-- FEATURES SECTION START -->
-  <section class="py-10 md:py-16 bg-[url('../images/textured-bg.jpg')] bg-repeat relative z-0" x-data="{
-      featuresCards: [
+  <!-- SUBSCRIBE SECTION START -->
+  <section class="bg-[url('../images/textured-bg.jpg')] bg-repeat">
+    <div class="container px-4 mx-auto py-28">
+      <!-- SUBSCRIBE BANNER -->
+      <div class="grid md:grid-cols-12 gap-0 items-center">
+        <!-- LEFT SIDE -->
+        <div class="md:col-span-6 lg:col-span-4 h-full relative">
+          <div class="z-[1] bg-[url('../images/textured-bg-grey.jpg')] h-full">
+            <div class="p-10 xl:p-14 relative h-full">
+              <h2 class="font-['Russo_One',_sans-serif] text-3xl md:text-4xl uppercase my-4 text-white">
+                BASE Annual Magazine Subscription
+              </h2>
+              <p class="text-white font-['Jost',_sans-serif] text-lg md:text-xl mb-5">
+                <strong>
+                  Get BASE adventure quarterly magazine delivered right to your door.
+                </strong>
+                Starting with issue 08, you'll get a rich mix of inspirational stories, jaw-dropping photography.
+              </p>
+              <a href="#"
+                class="px-3 py-2 md:py-3 whitespace-nowrap rounded-md ease-[cubic-bezier(.4,0,.2,1)] transition-all uppercase text-[15px] bg-[#f79400] text-white inline-flex items-center font-['Jost',_sans-serif] tracking-wider hover:bg-[#cb7900]">
+                Find out more
+                <span class="ml-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                    <path fill-rule="evenodd"
+                      d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                      clip-rule="evenodd"></path>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- RIGHT SIDE -->
+        <div class="md:col-span-6 lg:col-span-8 h-full">
+          <img src="images/mag-subscription-banner-1.jpg.webp" alt=""
+            class="object-cover h-full w-full object-center md:py-8">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SUBSCRIBE SECTION END -->
+  <!-- PRODUCTS SECTION START -->
+  <section class="bg-[url('../images/textured-bg.jpg')] bg-repeat" x-data="{
+      products: [
         {
-          title: 'Jasmine Harrison becomes first woman to swim the length of Great Britain',
-          detail: 'The 23 year-old arrived in John O’Groats on Tuesday afternoon',
-          meta: 'BASE editorial team',
-          date: 'October 20, 2022',
-          author: 'Hannah Mitchell',
-          star: 2,
+          title: 'Back Issue #07',
+          price: '3.99',
+          currency: '£',
           url: '#',
-          imageSrc: 'images/card-1.webp',
+          imageSrc: 'images/product-1.webp'
         },
         {
-          title: 'Elnaz Rekabi returns to Iran amid fears for her safety',
-          detail: 'The professional climber may face persecution for defying Iranian hijab rules',
-          meta: 'Hannah Mitchell',
-          date: 'October 19, 2022',
-          author: 'Hannah Mitchell',
-          star: 3,
+          title: 'Back Issue #06',
+          price: '3.99',
+          currency: '£',
           url: '#',
-          imageSrc: 'images/card-2.webp',
+          imageSrc: 'images/product-2.webp'
         },
         {
-          title: 'Exclusive Discount for Adventure Uncovered',
-          detail: 'The inaugural film festival is coming to Bristol',
-          meta: 'BASE editorial team',
-          date: 'October 11, 2022',
-          author: 'Hannah Mitchell',
-          star: 5,
+          title: 'Back Issue #05',
+          price: '3.99',
+          currency: '£',
           url: '#',
-          imageSrc: 'images/card-3.webp',
+          imageSrc: 'images/product-3.webp'
         },
         {
-          title: 'Get Your Half Price Ticket for the National Snow Show',
-          detail: '15 – 16th October at the Birmingham NEC',
-          meta: 'BASE editorial team',
-          date: 'October 06, 2022',
-          author: 'Hannah Mitchell',
-          star: 1,
+          title: 'Back Issue #04',
+          price: '3.99',
+          currency: '£',
           url: '#',
-          imageSrc: 'images/card-4.webp',
+          imageSrc: 'images/product-4.webp'
         },
         {
-          title: 'Skateboarding short film to premiere at Adventure Uncovered Festival',
-          detail: 'A Land for Everyone explores a shared belief that skateboarding is for all',
-          meta: 'BASE editorial team',
-          date: 'October 05, 2022',
-          author: 'Hannah Mitchell',
-          star: 3.5,
+          title: 'Back Issue #03',
+          price: '3.99',
+          currency: '£',
           url: '#',
-          imageSrc: 'images/card-5.webp',
+          imageSrc: 'images/product-5.webp'
         },
         {
-          title: 'The Adventure Sports Events Conference is coming to Kendal',
-          detail: 'BASE will be proudly supporting ASEC 2022',
-          meta: 'BASE editorial team',
-          date: 'September 03, 2022',
-          author: 'Hannah Mitchell',
-          star: 2.5,
+          title: 'Back Issue #02',
+          price: '3.99',
+          currency: '£',
           url: '#',
-          imageSrc: 'images/card-6.webp',
-        },
-        {
-          title: 'Body of Hilaree Nelson recovered from Manaslu',
-          detail: 'Members of the mountaineering community have paid tribute to the trailblazing athlete',
-          meta: 'BASE editorial team',
-          date: 'September 29, 2022',
-          author: 'Hannah Mitchell',
-          star: 4.5,
-          url: '#',
-          imageSrc: 'images/card-7.webp',
-        },
-        {
-          title: 'HILAREE NELSON MISSING ON MANASLU',
-          detail: 'With several trapped and at least one climber dead in unrelated incidents on the world’s 8th highest mountain',
-          meta: 'BASE editorial team',
-          date: 'September 27, 2022',
-          author: 'Hannah Mitchell',
-          star: 2,
-          url: '#',
-          imageSrc: 'images/card-8.webp',
-        },
-        {
-          title: 'Ross Edgley Ends Record Breaking Swim in Hospital',
-          detail: 'After swimming continuously for 2 days and 2 nights across Loch Ness',
-          meta: 'BASE editorial team',
-          date: 'September 26, 2022',
-          author: 'Hannah Mitchell',
-          star: 1,
-          url: '#',
-          imageSrc: 'images/card-9.webp',
-        },
-        {
-          title: 'Jasmine Harrison becomes first woman to swim the length of Great Britain',
-          detail: 'The 23 year-old arrived in John O’Groats on Tuesday afternoon',
-          meta: 'BASE editorial team',
-          date: 'October 20, 2022',
-          author: 'Hannah Mitchell',
-          star: 5,
-          url: '#',
-          imageSrc: 'images/card-1.webp',
-        },
-        {
-          title: 'Elnaz Rekabi returns to Iran amid fears for her safety',
-          detail: 'The professional climber may face persecution for defying Iranian hijab rules',
-          meta: 'Hannah Mitchell',
-          date: 'October 19, 2022',
-          author: 'Hannah Mitchell',
-          star: 4.5,
-          url: '#',
-          imageSrc: 'images/card-2.webp',
-        },
-        {
-          title: 'Exclusive Discount for Adventure Uncovered',
-          detail: 'The inaugural film festival is coming to Bristol',
-          meta: 'BASE editorial team',
-          date: 'October 11, 2022',
-          author: 'Hannah Mitchell',
-          star: 1,
-          url: '#',
-          imageSrc: 'images/card-3.webp',
-        },
-        {
-          title: 'Get Your Half Price Ticket for the National Snow Show',
-          detail: '15 – 16th October at the Birmingham NEC',
-          meta: 'BASE editorial team',
-          date: 'October 06, 2022',
-          author: 'Hannah Mitchell',
-          star: 5,
-          url: '#',
-          imageSrc: 'images/card-4.webp',
-        },
-        {
-          title: 'Skateboarding short film to premiere at Adventure Uncovered Festival',
-          detail: 'A Land for Everyone explores a shared belief that skateboarding is for all',
-          meta: 'BASE editorial team',
-          date: 'October 05, 2022',
-          author: 'Hannah Mitchell',
-          star: 4,
-          url: '#',
-          imageSrc: 'images/card-5.webp',
-        },
-        {
-          title: 'The Adventure Sports Events Conference is coming to Kendal',
-          detail: 'BASE will be proudly supporting ASEC 2022',
-          meta: 'BASE editorial team',
-          date: 'September 03, 2022',
-          author: 'Hannah Mitchell',
-          star: 2,
-          url: '#',
-          imageSrc: 'images/card-6.webp',
-        },
-        {
-          title: 'Body of Hilaree Nelson recovered from Manaslu',
-          detail: 'Members of the mountaineering community have paid tribute to the trailblazing athlete',
-          meta: 'BASE editorial team',
-          date: 'September 29, 2022',
-          author: 'Hannah Mitchell',
-          star: 2,
-          url: '#',
-          imageSrc: 'images/card-7.webp',
-        },
-        {
-          title: 'HILAREE NELSON MISSING ON MANASLU',
-          detail: 'With several trapped and at least one climber dead in unrelated incidents on the world’s 8th highest mountain',
-          meta: 'BASE editorial team',
-          date: 'September 27, 2022',
-          author: 'Hannah Mitchell',
-          star: 3,
-          url: '#',
-          imageSrc: 'images/card-8.webp',
-        },
-        {
-          title: 'Ross Edgley Ends Record Breaking Swim in Hospital',
-          detail: 'After swimming continuously for 2 days and 2 nights across Loch Ness',
-          meta: 'BASE editorial team',
-          date: 'September 26, 2022',
-          author: 'Hannah Mitchell',
-          star: 4,
-          url: '#',
-          imageSrc: 'images/card-9.webp',
+          imageSrc: 'images/product-6.webp'
         },
       ]
     }">
-    <div class="container px-4 mx-auto">
-      <!-- FEATURES CARDS CONTAINER -->
-      <div class="grid grid-cols-12 gap-5 lg:gap-10 -mt-28 md:-mt-48">
-        <!-- FEATURES CARD -->
-        <template x-for="(card, index) in featuresCards" :key="index">
-          <div class="col-span-12 md:col-span-4 font-['Jost',_sans-serif]">
-            <div class="block">
+    <div class="container px-4 mx-auto pb-20">
+      <!-- FILTER OPTION -->
+      <form class="flex justify-end items-center mb-4">
+        <select name="filter" id="filter" class="p-2 text-lg text-[#766d66] outline-none focus:outline-none border">
+          <option value="">Sort by popularity</option>
+          <option value="" selected>Sort by latest</option>
+          <option value="">Sort by price: low to high</option>
+          <option value="">Sort by price: high to low</option>
+        </select>
+      </form>
+      <!-- PRODUCTS CONTAINER -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-5 gap-y-10">
+        <!-- PRODUCT CARD -->
+        <template x-for="(product, index) in products" :key="index">
+          <div class="relative">
+            <a :href="product.url" class="mb-1 block">
               <!-- CARD IMAGE -->
-              <a :href="card.url" class="h-64 md:h-56 lg:h-72 block mb-5 overflow-hidden">
-                <img :src="card.imageSrc" :alt="card.title" :title="card.title"
-                  class="object-cover object-center h-full w-full transition-transform ease-[cubic-bezier(.4,0,.2,1)] duration-300 scale-100 hover:scale-105" />
-              </a>
-              <!-- CARD META -->
-              <p class="mb-1 uppercase font-medium tracking-wide text-sm text-[#316094]">
-                <a class="text-grey uppercase" :href="card.url" href="#">Review</a>
-                •
-                <a class="text-grey uppercase" :href="card.url" x-text="card.author" href="#"></a>
-                • <span x-text="card.date"></span>
-              </p>
-              <!-- CARD HEADING -->
-              <h4 class="uppercase tracking-wide text-xl font-bold mb-2">
-                <a :href="card.url" class="text-[#111111] hover:text-[#766d66]" x-text="card.title">
+              <img :src="product.imageSrc" :alt="product.title" :title="product.title" class="max-w-full h-auto mb-4">
+              <!-- CARD TITLE -->
+              <h3
+                class="my-2 font-['Russo_One',_sans-serif] text-xl text-center transition-all duration-300 hover:text-[#f79400] text-[#111111]"
+                x-text="product.title">
+              </h3>
+              <!-- CARD PRICE -->
+              <span class="mb-2 block text-xl font-medium text-[#316094] text-center font-['Jost',_sans-serif]">
+                <span x-text="product.currency"></span>
+                <span x-text="product.price"></span>
+              </span>
+              <!-- CARD CTA -->
+              <div class="w-full flex justify-center items-center">
+                <a :href="product.url"
+                  class="px-3 py-1.5 md:py-3 whitespace-nowrap rounded-md ease-[cubic-bezier(.4,0,.2,1)] transition-all uppercase text-[15px] bg-[#f79400] text-white inline-flex items-center font-['Jost',_sans-serif] tracking-wider hover:bg-[#cb7900]">
+                  view more
+                  <span class="ml-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                      <path fill-rule="evenodd"
+                        d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                  </span>
                 </a>
-              </h4>
-              <!-- CARD STARS -->
-              <div
-                class="mb-2 text-xl cursor-default inline-block font-bold bg-clip-text text-transparent bg-[linear-gradient(90deg,#fc0_60%,#dedede_0)]"
-                :class="{
-                  'bg-[linear-gradient(90deg,#fc0_20%,#dedede_0)]' : card.star === 1,
-                  'bg-[linear-gradient(90deg,#fc0_30%,#dedede_0)]' : card.star === 1.5,
-                  'bg-[linear-gradient(90deg,#fc0_40%,#dedede_0)]' : card.star === 2,
-                  'bg-[linear-gradient(90deg,#fc0_50%,#dedede_0)]' : card.star === 2.5,
-                  'bg-[linear-gradient(90deg,#fc0_60%,#dedede_0)]' : card.star === 3,
-                  'bg-[linear-gradient(90deg,#fc0_70%,#dedede_0)]' : card.star === 3.5,
-                  'bg-[linear-gradient(90deg,#fc0_80%,#dedede_0)]' : card.star === 4,
-                  'bg-[linear-gradient(90deg,#fc0_90%,#dedede_0)]' : card.star === 4.5,
-                  'bg-[linear-gradient(90deg,#fc0_100%,#dedede_0)]' : card.star === 5,
-                  }">
-                ★★★★★
               </div>
-              <!-- CARD DETAIL -->
-              <p class="mb-5 leading-tight text-xl text-[#454545]" x-text="card.detail"></p>
-            </div>
+            </a>
           </div>
         </template>
       </div>
-      <!-- FEATURES PAGINATION -->
-      <div class="mt-5 text-center flex flex-wrap justify-center gap-1">
-        <a href="#"
-          class="p-3 text-base leading-5 inline-block rounded uppercase tracking-wider transition-all font-medium text-[#f79400] border border-[#f79400] pointer-events-none opacity-75">1</a>
-        <a href="#"
-          class="p-3 text-base leading-5 inline-block rounded uppercase tracking-wider transition-all font-medium text-[#f79400] border border-[#f79400] hover:text-white hover:bg-[#f79400]">2</a>
-      </div>
     </div>
   </section>
-  <!-- FEATURES SECTION END -->
+  <!-- PRODUCTS SECTION END -->
   <!-- FOOTER START -->
   <footer class="bg-[url('../images/textured-bg-black.jpg')] bg-repeat pt-20 pb-5">
     <!-- FOOTER PRIMARY -->
